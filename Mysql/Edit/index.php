@@ -39,8 +39,8 @@ $user = $result->fetch_assoc();
         <div>
             <label for="status">Status:</label>
             <select name="status" id="status">
-                <option value="1" <?php if($user['status'] == 1) { echo "selected"; } ?>>Absent</option>
-                <option value="2" <?php if($user['status'] == 2) { echo "selected"; } ?>>Present</option>
+                <option value="1" <?php if($user['status'] == 1) { echo "selected"; } ?>>single</option>
+                <option value="2" <?php if($user['status'] == 2) { echo "selected"; } ?>>married</option>
             </select>
         </div>
         <div>
